@@ -1,1 +1,7 @@
-// Task 2.4
+fun main() {
+    val name = "Almir"
+
+    println(name)
+
+    name = "A"
+}
