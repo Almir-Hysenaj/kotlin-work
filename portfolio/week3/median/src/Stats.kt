@@ -13,8 +13,8 @@ fun median(values: List<Float>): Float {
 }
 
 fun displayStats(values: List<Float>) {
-    println("Minimum: ${values.minOrNull()}")
-    println("Maximum: ${values.maxOrNull()}")
+    println("Minimum: ${values.min()}")
+    println("Maximum: ${values.max()}")
     println("Mean: ${values.average()}")
     println("Median: ${median(values)}")
 }
